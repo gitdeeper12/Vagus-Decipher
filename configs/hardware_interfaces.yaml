@@ -1,0 +1,30 @@
+# Hardware Interface Configurations
+
+interfaces:
+  implanted_cuff:
+    n_contacts: 6
+    spacing_mm: 2.0
+    snr: "high"
+    invasive: true
+    fs: 30000
+    
+  acute_hook:
+    n_contacts: 4
+    spacing_mm: 1.5
+    snr: "medium"
+    invasive: true
+    fs: 25000
+    
+  tavns:
+    n_contacts: 2
+    spacing_mm: 5.0
+    snr: "low"
+    invasive: false
+    fs: 10000
+    notes: "Transcutaneous auricular vagal nerve stimulation recording"
+
+adapters:
+  open_emphys: "OpenEmphys recording system"
+  blackrock: "BlackRock NeuroPort"
+  intan: "Intan RHD2000"
+  hl7_fhir: "HL7 FHIR R4 compliant API"

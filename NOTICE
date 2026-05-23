@@ -1,0 +1,18 @@
+Vagus-Decipher AI
+Copyright (c) 2026 Samir Baladi
+Licensed under the MIT License.
+
+BIO-MED-02 · Biomedical & Clinical AI Research Series
+
+This software includes the following dependencies:
+- PyTorch: BSD-style License
+- NumPy: BSD License
+- SciPy: BSD License
+- PyWavelets: MIT License
+- FilterPy: MIT License
+
+Vagus-Decipher AI: Neural Decoding of Vagus Nerve Electrophysiology for Real-Time Prediction of Systemic Inflammatory Storms
+DOI: 10.5281/zenodo.20347323
+
+Contact: gitdeeper@gmail.com
+Web: https://vagus-decipher.netlify.app

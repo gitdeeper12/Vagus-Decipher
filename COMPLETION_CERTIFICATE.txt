@@ -1,0 +1,146 @@
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║                                                                               ║
+║                    Vagus-Decipher AI COMPLETION CERTIFICATE                   ║
+║                                                                               ║
+║     Neural Decoding of Vagus Nerve Electrophysiology for Real-Time           ║
+║              Prediction of Systemic Inflammatory Storms                      ║
+║                                                                               ║
+║                           v1.0.0                                              ║
+║                           May 2026                                            ║
+║                                                                               ║
+║                           DOI: 10.5281/zenodo.20347323                        ║
+║                           Series: BIO-MED-02                                  ║
+║                                                                               ║
+╚═══════════════════════════════════════════════════════════════════════════════╝
+
+This certificate formally acknowledges the completion of Project Vagus-Decipher AI,
+the second installment of the Biomedical & Clinical AI Research Series (BIO-MED-02),
+which introduces the first physics-informed neural decoding framework for extracting
+immunological state estimates from vagus nerve electroneurogram recordings.
+
+┌───────────────────────────────────────────────────────────────────────────────┐
+│ PROJECT OVERVIEW                                                              │
+├───────────────────────────────────────────────────────────────────────────────┤
+
+Project Code:     Vagus-Decipher AI (BIO-MED-02)
+Version:          1.0.0
+Principal Investigator: Samir Baladi
+Affiliation:      Ronin Institute / Rite of Renaissance
+Submission Date:  May 2026
+Status:           ✅ COMPLETED
+
+┌───────────────────────────────────────────────────────────────────────────────┐
+│ THEORETICAL ACHIEVEMENTS                                                      │
+├───────────────────────────────────────────────────────────────────────────────┤
+
+✓ Adaptive Wavelet Isolation Engine (AWIE)
+  - Morlet wavelet decomposition (σ=6)
+  - Immune-afferent band isolation (300-3000 Hz)
+  - Spatiotemporal beamformer (18-22 dB rejection)
+
+✓ Neuro-Immune State-Space Decoder (NISSD)
+  - 7-component immunological state vector
+  - Neural ODE with Dormand-Prince RK45
+  - Unscented Kalman Filter (UKF)
+  - Jacobian sign constraints (physics prior)
+
+✓ Inflammatory Storm Index (ISI) Predictor
+  - Acceleration-sensitive temporal integration
+  - 4 clinical alert thresholds
+  - 30-60 minute advance warning horizon
+
+┌───────────────────────────────────────────────────────────────────────────────┐
+│ VALIDATION RESULTS                                                            │
+├───────────────────────────────────────────────────────────────────────────────┤
+
+┌─────────────────────────────────┬─────────────────────────────────────────────┐
+│ Metric                          │ Value                                       │
+├─────────────────────────────────┼─────────────────────────────────────────────┤
+│ Mean ISI Accuracy               │ 91.4%                                       │
+│ Mean Advance Warning            │ 47.3 minutes                                │
+│ False Positive Rate             │ 3.2%                                        │
+│ AUROC                           │ 0.963                                       │
+│ M1 (LPS Endotoxemia)            │ 93.1% / 51.2 min / 0.971                    │
+│ M2 (Sterile SIRS)               │ 90.8% / 44.7 min / 0.958                    │
+│ M3 (CAR-T CRS analog)           │ 90.4% / 45.9 min / 0.960                    │
+│ Total Parameters                │ 18.4M                                       │
+│ Inference Latency (A100)        │ <0.8 ms                                     │
+└─────────────────────────────────┴─────────────────────────────────────────────┘
+
+┌───────────────────────────────────────────────────────────────────────────────┐
+│ CLINICAL ALERT THRESHOLDS                                                     │
+├───────────────────────────────────────────────────────────────────────────────┤
+
+┌─────────────────────────────────┬─────────────────────────────────────────────┐
+│ ISI Score                       │ Alert Level                                 │
+├─────────────────────────────────┼─────────────────────────────────────────────┤
+│ 0.00 – 0.35                     │ 🟢 Low Risk - Routine monitoring           │
+│ 0.35 – 0.55                     │ 🟡 Elevated - Increase vitals frequency    │
+│ 0.55 – 0.75                     │ 🟠 High Risk - Physician notification      │
+│ >0.75                           │ 🔴 Critical - Immediate intervention       │
+└─────────────────────────────────┴─────────────────────────────────────────────┘
+
+┌───────────────────────────────────────────────────────────────────────────────┐
+│ DEPLOYMENT PLATFORMS                                                          │
+├───────────────────────────────────────────────────────────────────────────────┤
+
+┌─────────────────┬─────────────────────────────────────────────────────────────┐
+│ Platform        │ URL                                                         │
+├─────────────────┼─────────────────────────────────────────────────────────────┤
+│ GitHub (Primary)│ https://github.com/gitdeeper12/Vagus-Decipher              │
+│ GitLab (Mirror) │ https://gitlab.com/gitdeeper12/Vagus-Decipher              │
+│ Codeberg (Mirror│ https://codeberg.org/gitdeeper12/Vagus-Decipher            │
+│ Bitbucket (Mirro│ https://bitbucket.org/gitdeeper-12/Vagus-Decipher          │
+│ PyPI            │ https://pypi.org/project/vagus-decipher                    │
+│ Netlify (Web)   │ https://vagus-decipher.netlify.app                         │
+│ Zenodo (DOI)    │ https://doi.org/10.5281/zenodo.20347323                    │
+└─────────────────┴─────────────────────────────────────────────────────────────┘
+
+┌───────────────────────────────────────────────────────────────────────────────┐
+│ CITATION                                                                      │
+├───────────────────────────────────────────────────────────────────────────────┤
+
+@software{baladi2026vagusdecipher,
+  author       = {Samir Baladi},
+  title        = {Vagus-Decipher AI: Neural Decoding of Vagus Nerve Electrophysiology
+                  for Real-Time Prediction of Systemic Inflammatory Storms},
+  year         = {2026},
+  version      = {1.0.0},
+  doi          = {10.5281/zenodo.20347323},
+  url          = {https://github.com/gitdeeper12/Vagus-Decipher},
+  note         = {BIO-MED-02. Biomedical \& Clinical AI Research Series}
+}
+
+┌───────────────────────────────────────────────────────────────────────────────┐
+│ PRINCIPAL INVESTIGATOR                                                        │
+├───────────────────────────────────────────────────────────────────────────────┤
+
+Name:     Samir Baladi
+Title:    Interdisciplinary AI Researcher — Neural Engineering & Biomedical AI
+Email:    gitdeeper@gmail.com
+ORCID:    0009-0003-8903-0029
+Web:      https://vagus-decipher.netlify.app
+
+╔═══════════════════════════════════════════════════════════════════════════════╗
+║                                                                               ║
+║   "The nervous system has been listening to the immune system for a          ║
+║    hundred million years of evolution. Vagus-Decipher AI is the first        ║
+║    framework that learns to listen with it — extracting, from the            ║
+║    ancient electrophysiological language of the vagus nerve, the             ║
+║    precise moment when the body begins to lose the battle against            ║
+║    inflammation."                                                             ║
+║                                                                               ║
+║                              — Samir Baladi, May 2026                         ║
+║                                                                               ║
+║   ┌─────────────────────────────────────────────────────────────────────┐     ║
+║   │                     Vagus-Decipher AI SCIENCE PORTAL                  │     ║
+║   │                     vagus-decipher.netlify.app                       │     ║
+║   │        Neural Decoding · AWIE · NISSD · ISI · 91.4% Accuracy        │     ║
+║   └─────────────────────────────────────────────────────────────────────┘     ║
+║                                                                               ║
+║                    Biomedical & Clinical AI Research Series (BIO-MED-02)      ║
+║                    DOI: 10.5281/zenodo.20347323                               ║
+║                                                                               ║
+║                              ✅ COMPLETED                                     ║
+║                                                                               ║
+╚═══════════════════════════════════════════════════════════════════════════════╝

@@ -1,0 +1,44 @@
+# Vagus-Decipher Default Configuration
+
+awie:
+  wavelet: morlet
+  sigma: 6.0
+  f_min: 300
+  f_max: 3000
+  fs: 30000
+
+beamformer:
+  n_contacts: 6
+  spacing_mm: 2.0
+  cv_min: 0.2
+  cv_max: 2.0
+
+nissd:
+  state_dim: 7
+  hidden_dim: 256
+  layers: 4
+  physics_lambda: 5.0
+  timing_lambda: 12.0
+
+isi:
+  alpha: 1.0
+  beta: 0.08
+  gamma: 0.5
+  integration_window: 30
+  alert_threshold: 0.65
+
+clinical:
+  low: 0.35
+  elevated: 0.55
+  high: 0.75
+  critical: 0.90
+
+hardware:
+  interface: implanted_cuff
+  sampling_rate: 30000
+  n_channels: 6
+
+logging:
+  level: INFO
+  save_results: true
+  results_dir: ./results

@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use Vagus-Decipher AI in your research, please cite it as below."
+title: "Vagus-Decipher AI: Neural Decoding of Vagus Nerve Electrophysiology for Real-Time Prediction of Systemic Inflammatory Storms"
+authors:
+  - family-names: "Baladi"
+    given-names: "Samir"
+    orcid: "https://orcid.org/0009-0003-8903-0029"
+    affiliation: "Ronin Institute / Rite of Renaissance"
+    email: "gitdeeper@gmail.com"
+version: 1.0.0
+date-released: 2026-05-22
+doi: "10.5281/zenodo.20347323"
+license: "MIT"
+repository-code: "https://github.com/gitdeeper12/Vagus-Decipher"
+keywords:
+  - "vagus nerve"
+  - "electroneurogram"
+  - "neural decoding"
+  - "inflammatory storm"
+  - "septic shock"
+  - "cytokine release syndrome"
+  - "wavelet transform"
+  - "state-space model"
+  - "physics-informed neural network"
+  - "neuroimmunology"
+  - "early warning system"
+  - "biomedical AI"
+type: "software"
+abstract: "Vagus-Decipher AI is the first physics-informed neural decoding framework specifically engineered to extract immunological state estimates from raw electroneurogram (ENG) recordings of the cervical vagus nerve for real-time prediction of systemic inflammatory storms."

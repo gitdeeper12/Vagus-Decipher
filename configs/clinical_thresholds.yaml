@@ -1,0 +1,24 @@
+# Clinical Alert Thresholds Configuration
+
+thresholds:
+  low: 0.35
+  elevated: 0.55
+  high: 0.75
+  critical: 0.90
+
+response_times_min:
+  low: 0
+  elevated: 30
+  high: 15
+  critical: 5
+
+alert_messages:
+  low: "🟢 Low Risk - Routine monitoring"
+  elevated: "🟡 Elevated - Increase vital signs frequency"
+  high: "🟠 High Risk - Physician notification + lab panel"
+  critical: "🔴 Critical - Immediate intervention protocol"
+
+calibration:
+  source: "M1 LPS Endotoxemia validation set"
+  fpr_target: 0.05
+  lead_time_target_min: 45

@@ -1,0 +1,4 @@
+# Vagus-Decipher Core Requirements (Pure NumPy - No PyTorch)
+
+numpy>=2.0.0
+filterpy>=1.4.5

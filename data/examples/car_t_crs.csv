@@ -1,0 +1,6 @@
+time_min,ISI,TNF_a_pgml,IL_6_pgml,IL_10_pgml,alert_level
+0,0.08,3.8,5.2,14.5,Low
+20,0.28,14.2,22.8,10.8,Low
+40,0.55,32.5,55.6,7.2,Elevated
+60,0.75,55.8,98.4,4.5,High
+80,0.88,78.2,135.6,2.8,Critical
